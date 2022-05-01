@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
-sequelize.sync({ force: true }) // force: true = DROP TABLE IF EXISTS
+sequelize.sync({ force: false }) // force: true = DROP TABLE IF EXISTS
   .then(()=> {
     app.listen(PORT, () => { console.log(`App listening on port ${PORT}!`) });
   });
