@@ -16,4 +16,4 @@ SO THAT my company can compete with other e-commerce companies.
 ## Uses
 Use "Insomnia" or "Postman" to call, add, or delete from the API. 
 
-![example of api use](./assets/img/13-orm-homework-demo-01.gif)
+![example of api use](./assets/img/13-orm-homework-demo-02.gif)
